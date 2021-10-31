@@ -7,7 +7,7 @@ The emergency vehicles are assumed to have an RFID card or Transreciever, that a
 # Lane-Density Calculation Process
 The vehicles were counted using YOLOv3 algorithm with Darknet architecture. The algorithm was trained with Ms-coco dataset, enabling the object dection model to compare and count numerous vehicle types. This gave an advantage of counting and categorizing unique vehicles. On basis of real-time vehicle counts, the varying Density estimation for each lane was achieved. One huge advantage discoverd was when each unique vehicle type was assigned unique weightage, so that a variable time-duration for each lane to open could be generated.  
 # Requirements
-Arduino IDE
-OpenCV
-PyTorch
+Arduino IDE,
+OpenCV,
+PyTorch,
 YoloV3 
